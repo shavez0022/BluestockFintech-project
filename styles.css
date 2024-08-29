@@ -1,0 +1,583 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(245, 243, 243);
+}
+
+.navbar {
+    width: 1920px;
+    height: 125px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    box-shadow: 0 4px 20px 5px rgba(0, 0, 0, 0.02);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    width: 85px;
+    height: 45px;
+    position: absolute;
+    left: 10px;
+    top: 37px;
+}
+
+.text {
+    color: rgba(30, 30, 30, 1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 67.5px;
+    width: 299.68px;
+    height: 68px;
+    position: absolute;
+    top: 27px;
+    left: 110px;
+}
+
+.navmenu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 621px;
+    height: 25px;
+    position: absolute;
+    top: 45px;
+    left: 523px;
+}
+
+.navitem {
+    margin-left: 20px;
+}
+
+.navitem a {
+    color: rgba(154, 154, 154, 1);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22.5px;
+}
+
+.navsign {
+    position: absolute;
+    top: 45px;
+    left: 1300px;
+    display: flex;
+    gap: 15px;
+}
+
+.signin {
+    color: rgba(154, 154, 154, 1);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22.5px;
+}
+
+.signup button {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+    background-color: rgba(63, 82, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    padding: 10px 18px;
+    cursor: pointer;
+}
+
+.main {
+    padding: 20px;
+}
+
+.textcontent {
+    width: 231px;
+    height: 48px;
+    top: 177px;
+    left: 133px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.text2 {
+    width: 709px;
+    height: 221px;
+    top: 225px;
+    left: 600px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.smallbox1, .smallbox2, .smallbox3,
+.smallbox4, .smallbox5, .smallbox6,
+.smallbox7, .smallbox8, .smallbox9,
+.smallbox10, .smallbox11, .smallbox12 {
+    width: 542px;
+    height: 450px;
+    position: absolute;
+    background-color: white;
+}
+
+.smallbox1 {
+    left: 63px;
+    top: 277px;
+}
+
+.smallbox2 {
+    left: 655px;
+    top: 277px;
+}
+
+.smallbox3 {
+    left: 1247px;
+    top: 277px;
+}
+
+.smallbox4 {
+    left: 63px;
+    top: 782px;
+}
+
+.smallbox5 {
+    left: 655px;
+    top: 782px;
+}
+
+.smallbox6 {
+    left: 1247px;
+    top: 782px;
+}
+
+.smallbox7 {
+    left: 63px;
+    top: 1287px;
+}
+
+.smallbox8 {
+    left: 655px;
+    top: 1287px;
+}
+
+.smallbox9 {
+    left: 1247px;
+    top: 1287px;
+}
+
+.smallbox10 {
+    left: 63px;
+    top: 1792px;
+}
+
+.smallbox11 {
+    left: 655px;
+    top: 1792px;
+}
+
+.smallbox12 {
+    left: 1247px;
+    top: 1792px;
+}
+
+.nova {
+    width: 110px;
+    height: 47px;
+    position: absolute;
+    top: 40px;
+    left: 57px;
+}
+.epack{
+    width: 86px;
+    height: 86px;
+    position: absolute;
+    top: 40px;
+    left: 57px;
+
+}
+.swamy{
+    position: absolute;
+    width: 135px;
+    top: 10px;
+    left: 37px;
+    height: 120px;
+}
+.oyo{
+    width: 90px;
+    height: 77px;
+    position: absolute;
+    top: 30px;
+    left: 57px;
+}
+.boat{
+    width: 113px;
+    height: 60px;
+    position: absolute;
+    top: 40px;
+    left: 57px;
+}
+.kids
+{
+    width: 89px;
+    height: 88px;
+    position: absolute;
+    top: 30px;
+    left: 57px;
+}
+.ola{
+    width: 119px;
+    height: 117px;
+    position: absolute;
+    top: 10px;
+    left: 57px;
+}
+.mobiwik{
+    width: 95px;
+    height: 76px;
+    position: absolute;
+    top: 40px;
+    left: 57px;
+}
+.ixigo{
+    width: 115px;
+    height: 62px;
+    position: absolute;
+    top: 40px;
+    left: 57px;
+}
+.cmr{
+    width: 111px;
+    height: 86px;
+    position: absolute;
+    top: 30px;
+    left: 57px;
+}
+.wellness{
+    width: 213px;
+    height: 150px;
+    position: absolute;
+    top: 10px;
+    left: 7px;
+}
+.pkh{
+    width: 133px;
+    height: 113px;
+    position: absolute;
+    top: 10px;
+    left: 57px;
+}
+.text3 {
+    position: absolute;
+    left: 230px;
+    top: 25px; /* 125px (navbar) + 332px + 47px (nova image height) */
+    width: 220px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    white-space: nowrap;
+    color: rgba(65, 75, 234, 1);
+}
+
+.text4 {
+    position: absolute;
+    top: 170px;
+    left: 57px;
+    height: 27px;
+    width: 103px;
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 18px;
+    color: rgba(90, 88, 88, 1);
+    white-space: nowrap;
+}
+.text5{
+
+    position: absolute;
+    top: 206px;
+    left: 57px;
+    height: 27px;
+    width: 90px;
+    font-weight: 600;
+    line-height: 27px;
+    font-size: 18px;
+    color:  rgba(0, 0, 0, 1);
+    white-space: nowrap;
+}
+.text6{
+    position: absolute;
+    top: 170px;
+    left: 242px;
+    height: 27px;
+    width: 103px;
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 18px;
+    color: rgba(90, 88, 88, 1);
+    white-space: nowrap;
+}
+.text8{
+    position: absolute;
+    top: 170px;
+    left: 398px;
+    height: 27px;
+    width: 103px;
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 18px;
+    color: rgba(90, 88, 88, 1);
+    white-space: nowrap;
+}
+.text7{
+    position: absolute;
+    top: 206px;
+    left: 232px;
+    height: 27px;
+    width: 90px;
+    font-weight: 600;
+    line-height: 27px;
+    font-size: 18px;
+    color:  rgba(0, 0, 0, 1);
+    white-space: nowrap;
+}
+.text9{
+    position: absolute;
+    top: 206px;
+    left: 396px;
+    height: 27px;
+    width: 90px;
+    font-weight: 600;
+    line-height: 27px;
+    font-size: 18px;
+    color:  rgba(0, 0, 0, 1);
+    white-space: nowrap;
+}
+.text10{
+    position: absolute;
+    top: 270px;
+    left: 57px;
+    height: 27px;
+    width: 103px;
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 18px;
+    color: rgba(90, 88, 88, 1);
+    white-space: nowrap;
+}
+.text11{
+    position: absolute;
+    top: 306px;
+    left: 57px;
+    height: 27px;
+    width: 90px;
+    font-weight: 600;
+    line-height: 27px;
+    font-size: 18px;
+    color:  rgba(0, 0, 0, 1);
+    white-space: nowrap;
+}
+.text12{
+    position: absolute;
+    top: 270px;
+    left: 232px;
+    height: 27px;
+    width: 103px;
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 18px;
+    color: rgba(90, 88, 88, 1);
+    white-space: nowrap;
+}
+.text13{
+    position: absolute;
+    top: 306px;
+    left: 232px;
+    height: 27px;
+    width: 90px;
+    font-weight: 600;
+    line-height: 27px;
+    font-size: 18px;
+    color:  rgba(0, 0, 0, 1);
+    white-space: nowrap;
+}
+.text14{
+    position: absolute;
+    top: 270px;
+    left: 397px;
+    height: 27px;
+    width: 103px;
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 18px;
+    color: rgba(90, 88, 88, 1);
+    white-space: nowrap;
+}
+.text15{
+    position: absolute;
+    top: 306px;
+    left: 397px;
+    height: 27px;
+    width: 90px;
+    font-weight: 600;
+    line-height: 27px;
+    font-size: 18px;
+    color:  rgba(0, 0, 0, 1);
+    white-space: nowrap;
+
+}
+.RHPs{
+    position: absolute;
+    width: 105px;
+    height: 43px;
+    border: 1px solid rgba(65, 75, 234, 1); /* Blue border */
+    border-radius: 10px; /* 10px border radius for rounded corners */
+    background-color: #fff; /* White background */
+    color: rgba(65, 75, 234, 1); /* Blue text color */
+    font-weight: 500; /* Make the text bold */
+    text-align: center; /* Center the text horizontally */
+    line-height: 33px; /* Vertically center the text */
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Make the anchor element behave like a button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+.DRHP{
+    position: absolute;
+    width: 105px;
+    height: 43px;
+    border: 1px solid  rgba(240, 85, 55, 1); /* Blue border */
+    border-radius: 10px; /* 10px border radius for rounded corners */
+    background-color:  rgba(240, 85, 55, 1); /* White background */
+    color: white; /* Blue text color */
+    font-weight: 500; /* Make the text bold */
+    text-align: center; /* Center the text horizontally */
+    line-height: 33px; /* Vertically center the text */
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Make the anchor element behave like a button */
+    cursor: pointer;
+}
+
+.RHPs {
+    top: 370px; /* Adjust this to your desired positioning */
+    left: 57px; /* Adjust this to your desired positioning */
+}
+
+.DRHP {
+    top: 370px; /* Adjust to ensure proper positioning relative to .RHPs */
+    left: 172px; /* Adjust this to your desired positioning */
+}
+
+.RHPs button, .DRHP button {
+    background: transparent; /* Make button background transparent to rely on anchor styles */
+    border: none; /* Remove default button border */
+    color: inherit; /* Inherit color from anchor element */
+    font: inherit; /* Inherit font settings from anchor element */
+    width: 100%; /* Make button fill the anchor area */
+    height: 100%; /* Make button fill the anchor area */
+    cursor: pointer; /* Ensure cursor shows as pointer on button */
+    outline: none; /* Remove outline on button focus */
+}
+.textcontent2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    color: rgba(0, 0, 0, 1);
+    width: 581px;
+    height: 60px;
+    position: absolute;
+    top: 2441px;
+    left: 63px;
+}
+.text16{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 1);
+    width: 887px;
+    height: 36px;
+    position: absolute;
+    top: 2490px;
+    left: 63px;   
+}
+.smallbox13{
+    position: absolute;
+    top: 2648px;
+    width: 1774px;
+    height: 371px;
+    left: 68px;
+    background-color: white;
+}
+.text17{
+    position: absolute;
+    width: 901px;
+    height: 54px;
+    top: 33px;
+    left: 50px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color:rgb(0, 0,0,1);
+}
+.instructions {
+   position: absolute;
+   width: 1150px;
+   height: 144px;
+   top: 120px;
+   left: 50px;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 36px;
+   color: rgb(0, 0,0,1); 
+}
+.sign1{
+    position: absolute;
+    width: 44px;
+    height: 96px;
+    top: 33px;
+    left: 1600px;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 82px;
+    color: rgb(92, 139,254,1);
+}
+
+.question1, .question2, .question3, .question4, .question5, .question6, .question7, .question8, .question9 {
+    position: absolute;
+    width: 1774px;
+    height: 181px;
+    left: 68px;
+    background-color: white;
+}
+
+.question1 { top: 3055px; }
+.question2 { top: 3277px; } /* Adjust as needed */
+.question3 { top: 3499px; } /* Adjust as needed */
+.question4 { top: 3721px; } /* Adjust as needed */
+.question5 { top: 3943px; } /* Adjust as needed */
+.question6 { top: 4165px; } /* Adjust as needed */
+.question7 { top: 4387px; } /* Adjust as needed */
+.question8 { top: 4609px; } /* Adjust as needed */
+.question9 { top: 4831px; }
+
+.ques1 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: rgba(0, 0, 0, 1);
+    padding: 20px; 
+}
+.footer {
+    background-color: rgba(255, 255, 255, 1); 
+    width: 1920px;
+    height: 824px;
+    top: 5199px;
+    position: absolute;
+    left: 63px;
+}
+
